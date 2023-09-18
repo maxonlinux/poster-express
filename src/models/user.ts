@@ -10,10 +10,12 @@ const userSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
+        maxLength: 30,
     },
     password: {
         type: String,
         required: true,
+        maxLength: 100,
     },
 }, {
     timestamps: true,

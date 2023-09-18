@@ -12,6 +12,7 @@ const commentSchema = new mongoose.Schema({
     content: {
         type: String,
         required: true,
+        maxLength: 150,
     },
 }, {
     timestamps: true,

@@ -31,7 +31,7 @@ function auth(role: UserRole = UserRole.User) {
         } catch (error) {
             const err = error as JsonWebTokenError
             if (err.name === "TokenExpiredError") {
-                return res.status(403).json({ error: 'Token expired' });
+                return res.status(401).json({ error: 'Token expired' });
             }
 
             res.status(403).json({ error: 'Forbidden' });
