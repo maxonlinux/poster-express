@@ -6,7 +6,12 @@ ExpressJS (TypeScript) + Mongoose backend for poster app that implements basic C
 
 1. Clone this repository
 2. Install all dependencies executing `npm install` in the project folder
-3. Change the default settings in the `.env` file
+3. Change the default settings in the `.env` file:
+   - PORT: Any port (optional)
+   - SECRET: Long string that is used by JWT authorization (Any string, make sure it is long enough and use special characters to make it more secure)
+   - DB_URI: MongoDB URI
+   - DEFAULT_ADMIN_USERNAME: Admin username
+   - DEFAULT_ADMIN_PASSWORD: Admin password
 
 ## Running the Project
 
