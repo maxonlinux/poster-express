@@ -1,5 +1,5 @@
 # Poster Express
-ExpressJS + TS backend for poster app that implements basic CRUD operations and authentication using JWT tokens.
+ExpressJS (TypeScript) + Mongoose backend for poster app that implements basic CRUD operations and authentication using JWT tokens.
 
 ## Preparation Instructions
 `Node.js`, `npm`, `MongoDB` and `pm2` should be installed on your machine.
